@@ -1,15 +1,283 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>
-            AI in Drug Discovery
-        </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>AI in Drug Discovery</title>
     </head>
+    <script language = "JavaScript">
+        var name, count;
+        count = 0;
+        while(count<3){
+            name = window.prompt("Guess my name.","0")
+            if(name == "Erika")
+            { count = 3;
+                window.alert("Correct Answer!");
+                document.writeIn("Well done, good memory.")
+            }
+            count = count + 1;
+        }
+            if(name != "Erika")
+            { document.writeIn("Fish memory.");}
+    </script>
     <body>
-        <h1>AI in Drug Discovery</h1>
-        <p>
-            AI is included in many things!
-            AI is crucial.
-        </p>
+        <header>
+            <h1 class="highlighted-text-shadow"><strong><a href="file:///Users/okuerika/Downloads/webpage/aihome.html">AI in Drug Discovery</a></strong></h1> 
+        </header>
+        <section>
+            <nav>
+                <li><a class="active" href="file:///Users/okuerika/Downloads/webpage/webpage.html">The stages of Drug Discovery</a></li>
+                <li><a href="file:///Users/okuerika/Downloads/webpage/possibiltyai.html">Possibility of AI</a></li>
+                <li><a href="file:///Users/okuerika/Downloads/webpage/limitation.html">Limitation of AI</a></li>
+                <li><a href="file:///Users/okuerika/Downloads/webpage/aireallife.html">AI used in real life</a></li>
+                <li><a href="file:///Users/okuerika/Downloads/webpage/source.html">Sources</a></li>
+            </nav>
+
+            <div class="first">
+                <p>
+                    Artificial Intelligence (AI) is included in many things, and recently, it has been started to be included in medical field.<br>
+                    The main role of AI in medical care field is to analyse the human health data and medical machine images to enhance diagnoses and the result.<br>
+                    It has been started to be included in drug discovery too, and it shows the potential to shorten the time of researching for a drug.
+                    Drug discovery usually take up to 14 years, and in most of the case, fails to be included in the market.
+                </p>
+                <div class="table-c">
+                    <p>
+                        <ol>
+                            <li><a href="#1. Discovery and Development">1. Discovery and Development</a></li>
+                            <li><a href="#2. Preclinical Research">2. Preclinical Research</a></li>
+                            <li><a href="#3. Clinical Research">3. Clinical Research</a></li>
+                            <li><a href="#4. FDA Drug Review">4. FDA Drug Review</a></li>
+                        </ol>
+                    </p>
+                </div>
+                <h2>The Stages of Drug Discovery</h2>
+                <img src="https://www.abtosoftware.com/wp-content/uploads/2022/09/drug-discovery-stages-AI-and-ML-in-the-process.png" alt="abtosoftware.com">
+                <div class="d-d" id="1. Discovery and Development">
+                    <h3>1. Discovery and Development</h3>
+                <div class="box1">
+                    <span class="box1-title">Discovery</span>
+                    <p>4 General ways of Discovery:</p>
+                    <p>
+                    Countless compounds have a potential to be developed as a medical treatment. However, only a few of compounds are recognised as useful after preliminary testing for more research.
+                    <ul>
+                        <li>New perception to the procedure of disease.</li>
+                        <li>Postive effects could be discovered through multiple experiments of molecular compounds.</li>
+                        <li>Unexpected result from the current treatments.</li>
+                        <li>Controlling genetic material or novel ways to treat the specific part of the body with the medical treatment thorough innovative technologies.</li>
+                    </ul>
+                </p>
+                </div>
+                
+                <div class="box1">
+                    <span class="box1-title">Development</span>
+                    <p>
+                        Researchers tests the compounds for the certain informations after identifying the compounds. They test them on:
+                    <ul>
+                        <li>Details of absorption, distribution, metabolism, and excretion.</li>
+                        <li>Procedure of action and its probable advantages.</li>
+                        <li>The optimum dosage.</li>
+                        <li>Most favourable method of dosage.</li>
+                        <li>Toxicity caused by any side effects or adverse events.</li>
+                        <li>The alternative impact on various groups of human, for example gender, race, age, or ethnicity.</li>
+                        <li>The way they interact with other medical treatments.</li>
+                    </ul>
+                </p>
+                </div>
+                </div>
+
+                <div class="p-r" id="2. Preclinical Research">
+                    <h3>2. Preclinical Research</h3>
+                <p>
+                    Toxicity must be tested in advance of utilised in human. 2 types of preclinical research are:
+                    <ul>
+                        <li><span>In vitro</span>: Tests conducted on samples such as blood or tissue which is taken out of the human body is In vitro diagnostics (IVD).</li>
+                        <li><span>In vivo</span>: Refers to the test conducted on living organisms, such as animals.</li>
+                    </ul>
+                    Typically, preclinical research is not conducted largely. Nevertheless, it has a crucial role in providing information about the dosing and toxicity, to determine if the drug should be attempted on humans.
+                </p>
+                </div>
+
+                <div class="c-r" id="3. Clinical Research">
+                    <h3>3. Clinical Research</h3>
+                <p>
+                    Clinical research is a study or tests that is conducted on humans. 
+                    For each of the Clinical Research Phases, scientists acknowledge the objective and start the Investigational New Drug Process (IND) while they arrange the clinical research.
+                </p>
+                <div class="box1">
+                    <span class="box1-title">Designing Clinical Research</span>
+                    <p>
+                        A protocal is the plan designed which the clinical research follows. They include the information about:
+                    <ul>
+                        <li>Entry qualification of the trial</li>
+                        <li>The number of people in the sample</li>
+                        <li>Period of the study</li>
+                        <li>Needs of control group and alternative ways to lessen the bias</li>
+                        <li>Dosage</li>
+                        <li>Objective data of the trial</li>
+                        <li>The method of data reveiwed and analysed</li>
+                    </ul>
+                    </p>
+                </div>
+                <div class="box1">
+                    <span class="box1-title">IND</span>
+                    <p>
+                        Investigational New Drug (IND) application must be submitted by the drug researchers before the clinical trials, which needs to include:
+                    <ul>
+                        <li>In vivo study data with the animals and toxicity data</li>
+                        <li>Construction information</li>
+                        <li>Protocals</li>
+                        <li>Any data from the human research conducted before</li>
+                        <li>Information about the researcher</li>
+                    </ul>
+                    </p>
+                </div>
+                <div class="box1">
+                    <span class="box1-title">Phase of Clinical Research</span>
+                    <p>
+                        <strong>Phase 1:</strong><br>
+                        Usually 20-100 healthy participants or the participants with the certain disease.<br>
+                        Period of time: Couple of months.<br>
+                        Purpose: To assure the safety and to get the information about the dosage.<br>
+                        To the second phase, around 70% of drugs.<br>
+                        <br>
+                        <strong>Phase 2:</strong><br>
+                        Usually around few hundered participants with the certain disease.<br>
+                        Period of time: Couple of months to 2 years.<br>
+                        Purpose: Potency and side effects.<br>
+                        To the third phase, around 33% of drugs.<br>
+                        <br>
+                        <strong>Phase 3:</strong><br>
+                        Usually 300-3000 participants with the certain disease.<br>
+                        Period of time: 1-4 years.<br>
+                        Purpose: Potency and checking of side effects.<br>
+                        To the last phase, around 25-30%.<br>
+                        <br>
+                        <strong>Phase 4:</strong><br>
+                        Usually couple thousands participants with the certain disease.<br>
+                        Purpose: Assuring the safety and checking the potency.
+                    </p>
+                </div>
+                <div class="box1">
+                    <span class="box1-title">Review and Approval</span>
+                    <p>
+                        The IND is reviewed by the FDA IND Review team within the 30 days, to check if there is any faults that could harm the people due to the clinical trial.<br>
+                        The clinical trial could be:
+                        <ul>
+                            <li>Approved</li>
+                            <li>Delayed or ordered to cutoff the the research from the clinical hold</li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="fda" id="4. FDA Drug Review">
+                    <h3>4. FDA Drug Review</h3>
+                    <p>Once the drug researcher has sufficient amount of evidence to confirm that the medicine is safe and is useful, they can apply to sell in the market.
+                        For this, the team of FDA review would inspect the data of the medicine carefully if it should be allowed or not.
+                    </p>
+                    <div class="box1">
+                        <span class="box1-title">New Drug Application</span>
+                        <p>
+                            The file of drug application is called New Drug Application (NDA), which consists of all the data of the drug, such as:
+                            <ul>
+                                <li>Safety information</li>
+                                <li>Side effects from the drug</li>
+                                <li>All of the data of the trials or studies</li>
+                                <li>Method of usage</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="box1">
+                        <span class="box1-title">FDA Review</span>
+                        <p>
+                            NDA would be determined if it is completed enough to be filed or not by FDA. 
+                            When completed, NDA would be then examined by FDA, usually taking 6-10 months to be decided if it should be accpeted ot not.
+                            The decision is made carefully through:
+                            <ul>
+                                <li>Full examination by each person in the team of their section would be done.</li>
+                                <li>To the clinical trial sites, the FDA inspectors go for supervision. They check if there is any falsehood, manipulation, or deterring of data.</li>
+                                <li>All of the reviewed data would be assembled into "action package" by the project manager. The senior team of FDA official makes a decision.</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="box1">
+                        <span class="box1-title">FDA Approval</span>
+                        <p>
+                            Once FDA decides that the medicine is safe and useful, "labeling" is done, which is to clarify and improve the prescribing information.<br>
+                            In most cases, FDA questions or requires another trials and studies to eliminate any problems.
+                        </p>
+                    </div>
+                </div>
+
+                </div>
+                
+                
+                
+    
+                
+                <p>For the website, click <a href = https://github.com/Erika-create/webpage/blob/main/webpage.html>here</a>.</p>
+                
+                <!-- <p><strong>When is your birth year?</strong></p>
+                <input name = "year" type = "text" size = "25">
+                <input type = "button" value = "Calculate my age"> -->
+    
+                <p><strong>Please send any questions or comments.</strong></p>
+                <textarea name = "comments" row = "4" cols = "36"></textarea>
+    
+                <p><strong>Select Gender:</strong></p>
+                <input name = "gender" type = "radio" value = "Male">Male
+                <input name = "gender" type = "radio" value = "Female">Female
+                <input name = "gender" type = "radio" value = "not">Prefer not to say
+    
+                <p><strong>Do you want reply?</strong></p>
+                <input name = "reply" type = "checkbox" value = "Require reply">
+    
+                <p>Rate my website:</p>
+                <select name = "rating">
+                    <option selected>Amazing
+                        <option> 9-7
+                            <option> 7-5
+                                <option> 5-3
+                                    <option> 3-0
+                                    </option>
+                                </option>
+                            </option>
+                        </option>
+                    </option>
+                </select>
+    
+                <div id = "cal" class = "calculate">
+                    <div class = "container">
+                        <p><strong>Let's calculate your age!</strong></p>
+                        <input type = "date" id = "dob" placeholder = "Enter your date of birth:">
+                        <button onclick = "calculateAge()">Calculate Age</button>
+                        <p id = "result"></p>
+                    </div>
+                    <script>
+                        function calculateAge() {
+                            const dobInput = document.getElementById('dob').value;
+                            if (!dobInput) {
+                                alert("Please enter your date of birth.");
+                                return;
+                            }
+                            const dob = new Date(dobInput);
+                            const today = new Date();
+                            let age = today.getFullYear() - dob.getFullYear();
+                            const monthDiff = today.getMonth() - dob.getMonth();
+                            const datDiff = today.getDate() - dob.getDate();
+                            if (monthDiff < 0 || (monthDiff === 0 && dayDiff < 0)) {
+                                age--;
+                            }
+                            document.getElementById('result').innerText = `Your age is ${age} years.`;
+                        }
+                    </script>
+                </div>
+                
+            </div>
+        </section>
+            
+        
+        <footer>
+            <p>©Erika</p>
+        </footer>
     </body>
 </html>
